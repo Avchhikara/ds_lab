@@ -30,10 +30,6 @@ void mul(int *arr_1, int *arr_2, int *out){
 		}
 	}
 	
-	
-	
-	
-	
 }
 
 void print_out(int *arr_1, int *arr_2, int *out, char c){
@@ -104,14 +100,9 @@ int main(){
 		else{
 			cout<<"\n The program will exit now!! \n";
 			break;
-		}
-		
-		
+		}	
 		
 	}
-	
-	
-	
 	
 	return 0;
 }

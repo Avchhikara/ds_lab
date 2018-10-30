@@ -56,12 +56,16 @@ int dequeue(queue *q){
 int main(){
 	
 	queue *q = create_queue();
-	enqueue(q, 1);
-	enqueue(q, 6);
-	enqueue(q, 3);
-	while(q->size!=0){
-		cout<<dequeue(q)<<" ";
+	cout<<"Enter the value to be enqueued to Queue or -1 to stop enquiuing: ";
+	int inp;
+	cin>>inp;
+	while(inp!=-1){
+		enqueue(q, inp);
+		cin>>inp;
 	}
-	
+	cout<<"\n Queue you have is: ";
+	while(q->size!=0){
+		cout<<" "<<dequeue(q);
+	}
 	return 0;
 }

@@ -18,23 +18,16 @@ void delete_value(int *arr){
 			pos+=1; 
 		}
 	}
-	
-	
 }
 
 void view(int *arr){
 	int i=0; 
 	cout<<endl<<"The array : ";
-	
 	while(i<10-arr_len){
 		cout<<arr[i]<<" ";
 		i++;
-	}
-	
-	
-	
+	}	
 }
-
 
 int main(){
 	int arr[10];

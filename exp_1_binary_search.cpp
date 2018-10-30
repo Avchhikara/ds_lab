@@ -7,7 +7,6 @@ void create_array(int *arr, int len){
 	int i = 0;
 	while(i<len){
 		arr[i++] = rand()%len;
-		
 	}
 }
 
@@ -41,9 +40,7 @@ int binary_search(int *arr, int len, int term){
 			beg = mid;
 		else if(term<arr[mid])
 			end = mid;
-		
 	}
-	
 	return -1;
 }
 
